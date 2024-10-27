@@ -18,7 +18,7 @@ Use this tool, you can search and copy FlexNet encrypt binary files.
     **********************************************************************************
 
 ## Build
-    gcc -std=c++11 *.cpp -o FlexNetLicenseSearch
+    g++ -std=c++11 *.cpp -o FlexNetLicenseSearch
 You can also use cmake to build.
 ## Run
     ./FlexNetLicenseSearch -s -c ~/home/FlexNetFile/
